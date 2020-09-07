@@ -1,0 +1,31 @@
+{
+  "name": "vue1-vee-validate",
+  "version": "1.0.1",
+  "description": "vee-validate for Vue.js 1.x",
+  "main": "src/vue1-vee-validate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iml885203/vue1-vee-validate.git"
+  },
+  "author": "Long Guo <iml885203@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iml885203/vue1-vee-validate/issues"
+  },
+  "homepage": "https://github.com/iml885203/vue1-vee-validate#readme",
+  "keywords": [
+    "Vue1",
+    "VueJS",
+    "Vue",
+    "validation",
+    "validator",
+    "inputs",
+    "form"
+  ],
+  "dependencies": {
+    "vee-validate": "2.2.15"
+  }
+}
