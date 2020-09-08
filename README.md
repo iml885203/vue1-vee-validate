@@ -1,6 +1,10 @@
 # vue1-vee-validate
 > [vee-validate](https://github.com/logaretm/vee-validate/tree/v2) v2 for Vue.js 1.x
 
+### Demo
+
+[Demo page](https://iml885203.github.io/vue1-vee-validate)
+
 ### Installation
 
 #### npm
