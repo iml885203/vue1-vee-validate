@@ -1,9 +1,10 @@
 {
   "name": "vue1-vee-validate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vee-validate for Vue.js 1.x",
   "main": "src/vue1-vee-validate.js",
   "scripts": {
+    "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +30,11 @@
     "vee-validate": "2.2.15"
   },
   "files": [
-    "/src"
-  ]
+    "/dist"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-1": "^6.24.1"
+  }
 }
