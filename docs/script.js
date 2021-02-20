@@ -47,44 +47,7 @@
       return {
         randId: Math.floor(Math.random()*10)+1,
         toggleUnbind: true,
-        dynamicRule: '',
-        exampleVueCode: {
-          syntax: [
-            "{{ errors.first('syntax_email') }}",
-            "{{ errors.first('syntax_alpha') }}"
-          ],
-          diserrs: [
-            "{{ error }}",
-            "{{ error }}",
-            "{{ error }}"
-          ],
-          modifiers: [
-            "{{ errors.first('modifiers_immediate') }}",
-            "{{ errors.first('modifiers_disable') }}",
-            "{{ error }}"
-          ],
-          form: [
-            "{{ errors.first('form_checkbox') }}",
-            "{{ errors.first('form_radio') }}"
-          ],
-          vv: [
-            "{{ errors.first('vv_as') }}",
-            "{{ errors.first('vv_delay') }}",
-            "{{ errors.first('vv_scope_form-1.email') }}",
-            "{{ errors.first('vv_scope_form-1.password') }}",
-            "{{ errors.first('vv_scope_form-2.email') }}",
-            "{{ errors.first('vv_scope_form-2.password') }}"
-          ],
-          custom: [
-            "{{ errors.first('custom_unit') }}"
-          ],
-          others: [
-            "{{ errors.first('unbind_email') }}",
-            "{{ errors.first('dynamic_rule') }}",
-            "{{ errors.first('custom_component') }}",
-            "{{ errors.first(`name-${randId}`) }}"
-          ]
-        }
+        dynamicRule: ''
       };
     },
     methods: {
