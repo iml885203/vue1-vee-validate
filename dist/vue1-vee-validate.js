@@ -243,6 +243,25 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
         }
       }
     });
+
+    Vue.directive('validate-ref', {
+      update: function update(val) {
+        /* istanbul ignore if */
+        if (!val) {
+          return;
+        }
+
+        var id = this.id = val;
+        var refs = (this._scope || this.vm).$refs;
+        refs[id] = this.el;
+      },
+      unbind: function unbind() {
+        var refs = (this._scope || this.vm).$refs;
+        if (refs[this.id] === this.el) {
+          refs[this.id] = null;
+        }
+      }
+    });
   };
 
   return Vue1VeeValidate;

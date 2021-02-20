@@ -1,6 +1,6 @@
 {
   "name": "vue1-vee-validate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vee-validate for Vue.js 1.x",
   "main": "src/vue1-vee-validate.js",
   "scripts": {
